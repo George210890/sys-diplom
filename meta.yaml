@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: abc
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+       ssh-rsa < здесь должен быть публичный ключ id_rsa.pub >
+
