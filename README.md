@@ -106,7 +106,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ### Логи с серверов через `elasticserch` в `kibana`
 
-![kibana](scr/kibana-logs.png)
+![kibana](https://github.com/George210890/sys-diplom/blob/main/kibana-logs.png)
 
 
 ### Сеть
