@@ -121,8 +121,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ### Snapshots
 
-![snapshots](scr/snapshots.png)
-![time](scr/snap2.png)
+![snapshots](https://github.com/George210890/sys-diplom/blob/main/snapshots.png)
+![time](https://github.com/George210890/sys-diplom/blob/main/snap2.png)
 
 ### Обзор облачного построения
 
