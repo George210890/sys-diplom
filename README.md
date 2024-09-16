@@ -45,8 +45,8 @@
 ### Выполнение сайта 
 
  - Сделал наполнение сайта чуть разным (сам `index.html`), чтобы видеть работу балансировщика.
-![](scr/scr-web1.png)
-![](scr/scr-web2.png)
+![](https://github.com/George210890/sys-diplom/blob/main/scr-web1.png)
+![](https://github.com/George210890/sys-diplom/blob/main/scr-web2.png)
 
 Создайте [Target Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/target-group), включите в неё две созданных ВМ.
 
