@@ -34,8 +34,8 @@
 
 ### Использование `Terraform` и `Ansible`
 
-![terraform](scr/inst-terraform.png)
-![ansible](scr/ansible-ping.png)
+![terraform](https://github.com/George210890/sys-diplom/blob/main/inst-terraform.png)
+![ansible](https://github.com/George210890/sys-diplom/blob/main/ansible-ping.png)
 
 ### Сайт
 Создайте две ВМ в разных зонах, установите на них сервер nginx, если его там нет. ОС и содержимое ВМ должно быть идентичным, это будут наши веб-сервера.
