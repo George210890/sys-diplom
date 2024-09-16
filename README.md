@@ -62,7 +62,7 @@
 
 ### Выполнение `http-router`
 
-![http-router](scr/http-router.png)
+![http-router](https://github.com/George210890/sys-diplom/blob/main/http-router.png)
 
 Создайте [Application load balancer](https://cloud.yandex.com/en/docs/application-load-balancer/) для распределения трафика на веб-сервера, созданные ранее. Укажите HTTP router, созданный ранее, задайте listener тип auto, порт 80.
 
