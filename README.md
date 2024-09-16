@@ -88,7 +88,7 @@
 - В моём случае я развернул систему на связке `Prometheus` и `Grafana`.Результат следующий:
 
 
-![Prometheus](scr/prometheus-node-exporter.png)
+![Prometheus](https://github.com/George210890/sys-diplom/blob/main/prometheus-node-exporter.png)
 
 - При доработке плейбука с `grafana` была поставлена задача убрать из плейбука явно указанный пароль для `grafana` и сделать его зашифрованным. В этом случае использовал утилиту `ansible-vault`. Воспользовавшись [статьёй](https://habr.com/ru/companies/otus/articles/722106/) из Habr я выполнил следующие действия. По-скольку надо зашифровать один лишь пароль, я вынес его в папку `vars`, предварительно создав её в директории с ролью `grafana`. Далее из этой директории я запустил команду для шифрования значения переменной `ansible-vault encrypt_string --vault-id @prompt < значение переменной >` 
 
