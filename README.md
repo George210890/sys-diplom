@@ -52,7 +52,7 @@
 
 ### Выполнение `Target Group`
 
-![Target Group](scr/target-group.png)
+![Target Group](https://github.com/George210890/sys-diplom/blob/main/target-group.png)
 
 Создайте [Backend Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/backend-group), настройте backends на target group, ранее созданную. Настройте healthcheck на корень (/) и порт 80, протокол HTTP.
 
