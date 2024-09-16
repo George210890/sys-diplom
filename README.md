@@ -68,8 +68,8 @@
 
 ### Выполнение `Load Balancer`
 
-![LoadB](scr/load-balabcer.png)
-![LoadB1](scr/load-b-1.png)
+![LoadB](https://github.com/George210890/sys-diplom/blob/main/load-balabcer.png)
+![LoadB1](https://github.com/George210890/sys-diplom/blob/main/load-b-1.png)
 
 
 Протестируйте сайт
