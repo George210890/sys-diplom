@@ -76,7 +76,7 @@
 `curl -v <публичный IP балансера>:80` 
 
 ### Test curl
-![curl](scr/curl.png)
+![curl](https://github.com/George210890/sys-diplom/blob/main/curl.png)
 
 ### Мониторинг
 Создайте ВМ, разверните на ней Zabbix. На каждую ВМ установите Zabbix Agent, настройте агенты на отправление метрик в Zabbix. 
