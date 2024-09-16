@@ -1,4 +1,3 @@
-
 #  Дипломная работа по профессии «Системный администратор -Кримчук Георгий
 Содержание
 ==========
@@ -57,7 +56,7 @@
 Создайте [Backend Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/backend-group), настройте backends на target group, ранее созданную. Настройте healthcheck на корень (/) и порт 80, протокол HTTP.
 
 ### Выполнение бэкенда
-![http1](scr/http-router1.png)
+![http1](https://github.com/George210890/sys-diplom/blob/main/http-router1.png)
 
 Создайте [HTTP router](https://cloud.yandex.com/docs/application-load-balancer/concepts/http-router). Путь укажите — /, backend group — созданную ранее.
 
