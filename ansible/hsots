@@ -1,0 +1,38 @@
+[bastionhost]
+bastion-host ansible_host=158.160.159.228 ansible_ssh_user=abc
+
+[webservers]
+web1 ansible_host=10.0.1.3
+web2 ansible_host=10.0.2.3
+
+[prometheus]
+prometheus-host ansible_host=10.0.3.3
+
+[grafana]
+grafana-host ansible_host=10.0.3.5
+
+[elasticsearch]
+elasticsearch-host ansible_host=10.0.1.4
+
+[kibana]
+kibana-host ansible_host=10.0.3.6 
+
+[webservers:vars]
+ansible_ssh_user=abc
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p abc@158.160.159.228"'
+
+[prometheus:vars]
+ansible_ssh_user=abc
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p abc@158.160.159.228"'
+
+[grafana:vars]
+ansible_ssh_user=abc
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p abc@158.160.159.228"'
+
+[elasticsearch:vars]
+ansible_ssh_user=abc
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p abc@158.160.159.228"'
+
+[kibana:vars]
+ansible_ssh_user=abc
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p abc@158.160.159.228"'
