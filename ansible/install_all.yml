@@ -1,0 +1,33 @@
+---
+#- name: "Install Nginx, Filebeat,Nginx_logexporter"   
+#  hosts: webservers                           
+#  roles:                                                                 
+#    - nginx                             
+#    - filebeat                            
+#    - nginx_logexporter 
+#    - node_exporter  
+
+#- name: "Install Prometheus"   
+#  hosts: prometheus                           
+#  roles:                                     
+#    - prometheus
+#    - node_exporter
+
+- name: "Install Grafana"   
+  hosts: grafana                          
+  roles:                                     
+    - grafana 
+#    - node_exporter                            
+
+#- name: "Install Elacticsearch"   
+#  hosts: elasticsearch                          
+#  roles:                                     
+#    - elasticsearch
+#    - node_exporter                          
+
+#- name: "Install Kibana"   
+#  hosts: kibana                          
+#  roles:                                     
+#    - kibana 
+#    - node_exporter 
+... 
